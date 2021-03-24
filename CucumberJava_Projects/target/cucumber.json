@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T12:39:02.576Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "login-to-gmail;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2215282700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome Browser",
+            "match": {
+              "location": "StepDefinitions.Login_Gmail_Steps.open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2443489100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to http://www.gmail.com",
+            "match": {
+              "location": "StepDefinitions.Login_Gmail_Steps.i_navigate_to_http_www_gmail_com()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6451090800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "StepDefinitions.Login_Gmail_Steps.i_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on button sign in",
+            "match": {
+              "location": "StepDefinitions.Login_Gmail_Steps.i_click_on_button_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5805507100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get logged in",
+            "match": {
+              "location": "StepDefinitions.Login_Gmail_Steps.i_should_get_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Gmail",
+    "description": "",
+    "id": "login-to-gmail",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Gmail_login.feature",
+    "tags": []
+  }
+]
